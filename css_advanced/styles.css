@@ -1,0 +1,258 @@
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div{
+    margin: 0px;
+}
+
+header{
+    background-image: url('images/Object.png');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 200px;
+}
+
+.nav-bar img{
+    height: 20px;
+}
+
+.nav-link a {
+   margin-right: 30px;
+   text-decoration: none;
+   color: white;
+}
+
+/* Styling get schooled */
+
+.get-schooled{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.get-schooled button, #membership-button{
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    border: none;
+    background-color: #C271FF;
+}
+
+.get-schooled h1{
+    font-size: 100px;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+.get-schooled div{
+    margin: 0px;
+}
+
+.school-item span{
+    margin: 20px;
+}
+
+/* Styling Learn */
+
+.learn{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#col-learn{
+    color: #C271FF;
+}
+
+.learn-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.learn-name div p{
+    margin: 0px;
+}
+
+
+/* Styling Quotes */
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+#quote-sect{
+    background-color: #C271FF;
+}
+.quote{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 100px 350px 100px 200px;
+    color: white;
+}
+
+.quote img{
+    padding-right: 100px;
+}
+
+/* styling Video */
+
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video h3{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#popular, .video-rating p, #free{
+    color: #C271FF;
+}
+
+.video-file{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.video-autor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align:center;
+    align-items: center;
+    margin-right: 300px;
+    margin: 0px;
+}
+
+.video-autor img{
+    height: 30px;
+    width: 30px;
+}
+
+.video-autor p{
+    margin-right: 120px;
+    color: #C271FF;
+}
+
+.video-rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.video-rating img{
+    height: 15px;
+    width: 70px;
+}
+
+
+/* style membership */
+
+.membership{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #071629;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.smile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+/* style FAQ */
+
+.faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* text-align: center; */
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.faq h4{
+    text-align: center;
+    font-size: 30px;
+}
+
+.faq-one, .faq-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.faq-one div, .faq-two div{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+/* Styling Footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #071629;
+    color: white;
+}
+
+.footer-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    justify-content: space-between;
+  }
+
+  .fa-brands{
+    color: white;
+    margin-left: 10px;
+  }
